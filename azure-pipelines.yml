@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: New_self_hosted_agent
+pool: New_self_hosted_agent
 
 steps:
 - task: NodeTool@0
